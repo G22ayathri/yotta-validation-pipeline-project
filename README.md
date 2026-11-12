@@ -145,3 +145,100 @@ Configuration is loaded from `.env` and environment variables. Important setting
 - [Validation rules](docs/VALIDATION_RULES.md)
 - [Test datasets](docs/TEST_DATASETS.md)
 - [Versioning](docs/VERSIONING.md)
+## LLM Usage & AI-Assisted Development Documentation
+
+### 1. Overview
+
+This document records the Large Language Models (LLMs) and AI-powered development tools used during the design, planning, implementation, debugging, and validation of the **Validation Pipeline** project.
+
+AI tools were used to support development productivity, technical decision-making, code generation, documentation, troubleshooting, and project completion.
+
+### 2. AI Tools Used
+
+#### 2.1 ChatGPT
+
+**Platform:** OpenAI ChatGPT
+**Link:** [https://chatgpt.com/](https://chatgpt.com/)
+
+**Purpose:**
+
+- Understanding project requirements and problem statements.
+- Designing the overall system architecture.
+- Planning the data validation pipeline.
+- Identifying validation rules and reference dataset requirements.
+- Designing database structures and processing workflows.
+- Generating development prompts and implementation instructions.
+- Preparing test scenarios and sample incoming CSV datasets.
+- Reviewing technical decisions and troubleshooting implementation issues.
+
+#### 2.2 Google Antigravity
+
+**Platform:** Google Antigravity
+
+**Purpose:**
+
+- AI-assisted project development.
+- Generating and modifying application code.
+- Creating project structure and components.
+- Implementing features based on development instructions.
+- Assisting with debugging and code improvements.
+
+#### 2.3 OpenAI Codex
+
+**Platform:** OpenAI Codex
+
+**Purpose:**
+
+- AI-assisted software engineering.
+- Implementing development tasks.
+- Generating and modifying source code.
+- Debugging and resolving implementation issues.
+- Reviewing code and improving project quality.
+- Supporting testing and completion activities.
+
+### 3. Project Technology Stack
+
+| Technology | Purpose |
+| --- | --- |
+| Python | Core programming language |
+| MySQL | Relational database |
+| Pandas | CSV processing and data manipulation |
+| Redis | Caching and supporting processing workflows |
+| CSV | Incoming and reference dataset formats |
+| LLM Tools | AI-assisted development and documentation |
+
+### 4. LLM-Assisted Development Workflow
+
+The AI-assisted development process followed these stages:
+
+1. **Requirement Analysis:** Understanding the problem statement and defining the actual business requirements.
+2. **System Design:** Planning the validation pipeline, database schema, processing workflow, and application architecture.
+3. **Project Generation:** Preparing implementation instructions and generating the initial project structure.
+4. **Implementation:** Using AI coding assistants to develop individual modules and application features.
+5. **Testing:** Preparing incoming CSV files, reference datasets, validation scenarios, and test cases.
+6. **Debugging:** Identifying and resolving implementation issues.
+7. **Documentation:** Preparing technical documentation and project completion details.
+
+### 5. ChatGPT Conversation History
+
+The following shared ChatGPT conversation contains the project-related discussions, requirement analysis, planning, and technical decisions.
+
+**Primary Conversation Reference:**
+
+[https://chatgpt.com/share/6af55a62-9470-83ee-89d2-2ca0d28f30d7](https://chatgpt.com/share/6af55a62-9470-83ee-89d2-2ca0d28f30d7)
+
+### 6. Responsible AI Usage
+
+- AI-generated code and suggestions were used as development assistance.
+- Generated implementations should be reviewed and tested before acceptance.
+- Database operations and validation results must be verified against the defined requirements.
+- AI tools were used to improve development efficiency and support engineering activities.
+- Final implementation decisions and project validation remain subject to developer review.
+
+### 7. Summary
+
+ChatGPT, Google Antigravity, and OpenAI Codex were used as AI-assisted development tools throughout the Validation Pipeline project.
+
+Each tool supported different stages of the software development lifecycle, including requirement analysis, architecture planning, code generation, implementation, debugging, testing, and documentation.
+
+This section serves as a record of the AI tools and development assistance used during the project.
